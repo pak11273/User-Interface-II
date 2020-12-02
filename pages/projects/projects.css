@@ -23,6 +23,7 @@
 
 .project-card a {
     text-decoration: none;
+    padding: 0;
 }
 
 .project-img {
@@ -30,7 +31,8 @@
     height: 240px;
     width: 240px;
     border-radius: 5px;
-    box-shadow: 0 4px 10px 0 gray;
+    box-shadow: 0 -2px 7px 0 gray;
+
     max-width: 240px;
 }
 
