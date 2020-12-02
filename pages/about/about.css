@@ -1,1 +1,49 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.profile {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 240px;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 240px;
+    width: 240px;
+    background: url("/assets/images/ceo.png") center/cover no-repeat;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.resume {
+    padding: 40px;
+}
+
+@media (min-width: 640px) {
+    .profile {
+        flex-direction: row;
+        height: 290px;
+        padding: 70px;
+        width: 100%; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-pic {
+        width: 240px;
+    }
+
+    .profile-info {
+        margin-left: 20px;
+        max-width: 240px;
+    }
+}

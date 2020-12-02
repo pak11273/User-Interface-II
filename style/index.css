@@ -176,7 +176,7 @@ p, a {
 .feature-img {
      background: url("https://picsum.photos/200/300?grayscale") no-repeat center/cover;
      border-radius: 5px;
-     height: 180px;
+     height: 250px;
      margin: 15px;
 }
 
@@ -184,8 +184,16 @@ p, a {
      padding: 10px;
 }
 
+.info .name {
+     margin-top: 50px;
+}
+
 .info-link {
+     align-items: center;
+     width: 250px;
      margin: 10px;
+     display: flex;
+     margin-top: 40px;
 }
 
 .info-link a {
@@ -334,6 +342,7 @@ footer div {
 
      .main-nav menu {
           display: flex;
+          padding: 0;
      }
 
      .title p {
@@ -409,4 +418,9 @@ footer div {
 /* auxillary styles */
 .main {
      min-height: 542px;
+     margin: 0 auto;
+}
+
+.main-title {
+     font-size:1.8rem;
 }

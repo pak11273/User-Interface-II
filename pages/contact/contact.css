@@ -1,0 +1,17 @@
+.main {
+    text-align: center;
+}
+
+.google-background {
+    height: 300px;
+    width: 100%; 
+    background: url("/assets/images/googleMap.png");
+}
+
+.contact-info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
